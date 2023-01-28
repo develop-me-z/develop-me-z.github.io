@@ -49,146 +49,69 @@ instagram_username: develop.me.z
 # about_title: About Me
 about_profile_image: images/jisoo.png
 about_content: | # this will include new lines to allow paragraphs
-  3년차 풀스택 개발자로 웹서비스의 개발/운영을 하고있습니다.
+  3년차 웹개발자 오지수입니다.
 
-
-  백엔드에서는 <mark>Java & Spring, 전자정부프레임워크</mark>
-
-  프론트엔드에서는 <mark>Javascript, jQuery, Ajax, bootstrap</mark>을 주로 사용하여 개발하고 있습니다.
-
-
-  현재 스프링 부트와 AWS를 사용하여 프로젝트 구축부터 배포까지의 사이드 프로젝트를 진행하고 있습니다.
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #         #  url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+          #  url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: (주) 부린
-        link: eburin.com
-        # link_text: eburin.com
-        sub_title: 웹 개발자
-        caption: 2021.01 - 현재
+        title: The Boring Company
+        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Senior Network System Administrator
+        caption: November 2017 - Present
         quote: >
-          공공 및 수자원분야의 정보화시스템을 구축하는 SI 기업
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - 
-            - WAMIS 용어사전 메뉴 화면 설계 및 DB 구축부터 기능 구현
-            - WAMIS 자료통계현황 DB 구축부터 기능 구현
+            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
-  - title: Skill # Title for the section
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Backend
-        caption: 
-        sub_title: 
+        title: Harvard University
+        caption: 2010 - 2013
+        sub_title: BSc Computer Science
         quote: >
-
+          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          - Java
-          - Spring, Spring Boot, Spring Security
-          - Gradle, Maven
-          - IntelliJ
-      - layout: left
-        title: DevOps
-        caption: 
-        sub_title: 
-        quote: >
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-        description: | # this will include new lines to allow paragraphs
-          - Oracle, PostgreSQL
-          - Tomcat
-      - layout: left
-        title: Frontend
-        caption: 
-        sub_title: 
-        quote: >
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-        description: | # this will include new lines to allow paragraphs
-          - Javascript, jQuery, Ajax, bootstrap
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: 인천 중구 시설물 모니터링 시스템
-        caption: 2021.04 - 2021.06
-        sub_title: 프로토타입 개발
-        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          - Java & Spring, 전자정부 프레임워크
-          - Kakao Map API 연동
-
-      - layout: top-middle
-        title: 하천정보관리시스템 통합구축 및 개선
-        caption: 2021.03 - 2021.12
-        sub_title: 환경부
-        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          - 
-          - Java & Spring, 전자정부 프레임워크
-
-  - title: ✏Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: 동국대학교
-        caption: 2020.08 졸업
-        sub_title: 정보통신공학과
-        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          
-          
-  - title: Certificate # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: 정보처리기사
-        caption: 2020.11 취득
-        sub_title: 한국산업인력공단
-      - layout: top-middle
-        title: SQL개발자(SQLD)
-        caption: 2020.10 취득
-        sub_title: 한국데이터베이스진흥센터
-      - layout: top-middle
-        title: 컴퓨터활용능력1급
-        caption: 2020.10 취득
-        sub_title: 대한상공회의소
-        
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#      - Rock climbing
-#      - Gaming
-#      - Knitting
-#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-#
-#      Look at this cool image  
-#      ![Trees](/images/landscape-trees.jpg "Trees")
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
